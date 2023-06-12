@@ -58,15 +58,12 @@ class XylophoneApp extends StatelessWidget {
       height = constraints.maxHeight / 10;
       padding = height / 10;
     }
-    return Padding(
-      padding: EdgeInsets.all(constraints.maxHeight / 100),
-      child: ElevatedButton(
-        onPressed: () => playAudio(note_number),
-        child: Text(""),
-        style: _style(
-          color,
-          constraints.maxHeight / 10,
-        ),
+    return ElevatedButton(
+      onPressed: () => playAudio(note_number),
+      child: Text(""),
+      style: _style(
+        color,
+        constraints.maxHeight / 10,
       ),
     );
   }
@@ -75,7 +72,8 @@ class XylophoneApp extends StatelessWidget {
     return ElevatedButton.styleFrom(
         minimumSize: Size.fromHeight(height),
         backgroundColor: color,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)));
+        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)
+    );
   }
 
   void playAudio(int note_number) {
