@@ -14,3 +14,9 @@ Available on Devices:
     4. Web
     5. MacOS(not tested by me)
     6. Linux(not tested by me)
+
+
+To test the app:
+    1. Clone this Git Repository
+    2. Open it using Android Studio or any other IDE
+    3. Run it on any of the listed device
