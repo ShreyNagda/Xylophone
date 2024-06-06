@@ -1,6 +1,6 @@
 # Xylophone 🎹
 
-This is a simple music instrument built using Flutter SDK.
+This is a simple xylophone built using Flutter SDK.
 The seven music are fed into the assets of the app.
 
 Flutter packages used:
